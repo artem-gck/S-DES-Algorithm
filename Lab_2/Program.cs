@@ -1,5 +1,4 @@
 ﻿using Lab_2;
-using Lab_2.Algorithm;
 
 const string Hello = "Program for encrypt and decrypt data in files .txt files";
 const string InputPath = "Input path to input file: ";
@@ -15,6 +14,7 @@ var outputPath = Console.ReadLine();
 var key = ConsoleValidation.ValidateBinary(InputKey);
 
 FileWorker.EncryptFile(inputPath, outputPath, key);
+Console.WriteLine();
 
 Console.Write(InputPath);
 inputPath = Console.ReadLine();

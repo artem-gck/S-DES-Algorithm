@@ -7,8 +7,16 @@ using System.Threading.Tasks;
 
 namespace Lab_2
 {
+    /// <summary>
+    /// ConsoleValidation class.
+    /// </summary>
     public static class ConsoleValidation
     {
+        /// <summary>
+        /// Validates the binary.
+        /// </summary>
+        /// <param name="inputMessege">The input messege.</param>
+        /// <returns></returns>
         public static string ValidateBinary(string inputMessege)
         {
             Console.Write(inputMessege);
